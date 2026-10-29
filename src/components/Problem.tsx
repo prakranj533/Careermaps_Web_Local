@@ -31,10 +31,10 @@ const TypewriterLine = ({ text, delay = 0, speed = 45, className = "", cursorCla
 };
 
 const challenges = [
-  "Limited access to career counseling resources",
-  "Students lack understanding of available career paths",
-  "No personalized guidance based on individual strengths",
-  "Disconnect between education and real-world opportunities",
+  "Lack of career guidance — no structured path for future careers",
+  "Inconsistent quality of teachers and educational resources",
+  "Zero mentorship or counseling for students",
+  "Education gaps across Tier 2, Tier 3 & rural regions",
 ];
 
 export const Problem = () => {
@@ -57,14 +57,14 @@ export const Problem = () => {
             <p className="section-kicker">The challenge</p>
             <h2 id="challenge-title" className="section-title">Potential needs direction.</h2>
           </div>
-          <p className="section-intro">Our research shows that 80% of students from underserved communities have never discussed their career goals.</p>
+          <p className="section-intro">Education gaps in Tier 2, Tier 3 &amp; rural regions leave millions of students without guidance, quality teaching, or mentorship. Source: ASER 2020 Report.</p>
         </div>
         {/* Stats Cards */}
         <div className="mb-12 grid gap-6 md:grid-cols-3">
           {[
-            { value: "80%", label: "Never Discussed Goals", icon: Target },
-            { value: "60%", label: "Unrealistic Expectations", icon: AlertCircle },
-            { value: "95%", label: "Need Proper Guidance", icon: Lightbulb },
+            { value: "~14L", label: "Schools in India", icon: Target },
+            { value: "~50k", label: "Colleges in India", icon: AlertCircle },
+            { value: "85%", label: "Rural — Limited Digital Access", icon: Lightbulb },
           ].map((stat) => (
             <Card key={stat.label} className="surface-card p-7 md:p-9">
               <div className="feature-icon"><stat.icon className="h-5 w-5" aria-hidden="true" /></div>

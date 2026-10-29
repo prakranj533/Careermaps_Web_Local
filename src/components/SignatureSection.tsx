@@ -33,7 +33,7 @@ export const SignatureSection = () => {
       </div>
       <div className="signature-footer__details">
         <p className="signature-footer__mission">
-          Empowering students with AI-powered career counseling and blended learning
+          Empowering students with AI-powered <a href="https://careermaps.live" target="_blank" rel="noreferrer" className="underline underline-offset-2">career counseling</a> and blended learning
           for small schools and colleges across the country.
         </p>
         <dl className="signature-footer__contacts">
@@ -44,6 +44,10 @@ export const SignatureSection = () => {
           <div>
             <dt>Website :</dt>
             <dd><a href="https://careermaps.co.in/">careermaps.co.in</a></dd>
+          </div>
+          <div>
+            <dt>Portal :</dt>
+            <dd><a href="https://careermaps-ai-dashboard.web.app/" target="_blank" rel="noreferrer">Log into your portal</a></dd>
           </div>
           <div>
             <dt>Phone Number :</dt>

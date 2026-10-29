@@ -1,21 +1,22 @@
-import { BookOpen, CheckCircle2, Compass, GaugeCircle, Laptop, Users } from "lucide-react";
+import type { ReactNode } from "react";
+import { Compass, GraduationCap, MonitorSmartphone, UserCheck, Video, BookOpen } from "lucide-react";
 import { Card } from "@/components/ui/card";
 
-const onlinePillars = [
-  { icon: Laptop, title: "Global Classrooms", description: "Connect with top mentors & premium content from anywhere." },
-  { icon: Users, title: "Teacher Upskilling", description: "Structured training journeys for every school mentor." },
-  { icon: GaugeCircle, title: "Data Dashboard", description: "Track mastery, attendance & pulse in real time." },
+const eschoolPillars = [
+  { icon: MonitorSmartphone, title: "Live Specialized Teachers", description: "Smart TVs enabling access to expert educators otherwise unavailable in local regions." },
+  { icon: BookOpen, title: "Premium Curriculum", description: "Best-in-class courses for Grades 9–10 with special focus on English, Science, and Maths." },
+  { icon: Video, title: "Interactive Remote Learning", description: "Two-way interactive video calls ensuring real-time engagement and doubt resolution." },
 ];
 
-const offlinePillars = [
-  { icon: Compass, title: "Personal Anchors", description: "Daily persona building, advisory & habit tracking." },
-  { icon: BookOpen, title: "Rigorous Practice", description: "Studio sessions, mock drills & continuous feedback." },
-  { icon: CheckCircle2, title: "Doubt Clinics", description: "One-to-one support to help every learner move forward." },
+const careerMapsPillars: { icon: typeof Compass; title: string; description: ReactNode }[] = [
+  { icon: Compass, title: "Career Navigation App", description: "Explore careers and map distinct paths to success — just like Google Maps for your future." },
+  { icon: GraduationCap, title: "Expert Mentorship", description: "Monthly sessions with CAs, IITians, and Doctors to bridge the gap between aspiration and reality." },
+  { icon: UserCheck, title: "Personalized Guidance", description: <><a href="https://careermaps.live" target="_blank" rel="noreferrer" className="font-semibold text-emerald-700 underline underline-offset-2 hover:text-emerald-800">Unlimited counseling</a> tailored to individual student goals, strengths, and local context.</> },
 ];
 
 const pillars = [
-  { label: "01 / Online infrastructure", title: "A connected learning environment", items: onlinePillars },
-  { label: "02 / In-person support", title: "Human guidance, every day", items: offlinePillars },
+  { label: "01 / E-School", title: "Assisted learning via Smart Kit", items: eschoolPillars },
+  { label: "02 / Career Maps", title: "Career navigation & mentorship", items: careerMapsPillars },
 ];
 
 export const Solution = () => {
@@ -25,9 +26,9 @@ export const Solution = () => {
         <div className="section-heading">
           <div>
             <p className="section-kicker">Our approach</p>
-            <h2 id="solution-title" className="section-title">Better learning.<br />Built around people.</h2>
+            <h2 id="solution-title" className="section-title">A comprehensive<br />dual solution.</h2>
           </div>
-          <p className="section-intro">CareerMaps brings digital classrooms and in-person guidance together, giving schools the tools to support each learner from ambition to action.</p>
+          <p className="section-intro">Bridging technology with human guidance — E-School smart classrooms plus the Career Maps app for mentorship and career navigation.</p>
         </div>
         <div className="grid gap-6 lg:grid-cols-2">
           {pillars.map((pillar) => (

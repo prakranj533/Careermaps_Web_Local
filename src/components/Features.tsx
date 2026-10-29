@@ -1,26 +1,26 @@
-import { Brain, Users, TrendingUp, Zap } from "lucide-react";
+import { Globe, ClipboardList, Route, MapPin } from "lucide-react";
 import { Card } from "@/components/ui/card";
 
 const features = [
   {
-    icon: Brain,
-    title: "AI-Powered Guidance",
-    description: "Personalized career recommendations based on interests, skills, and real-time job market data.",
+    icon: Globe,
+    title: "See All Careers",
+    description: "Access a vast database of career options with detailed data, descriptions, and potential trajectories on one platform.",
   },
   {
-    icon: Users,
-    title: "Blended Learning",
-    description: "Seamless integration of online and offline resources for comprehensive educational support.",
+    icon: ClipboardList,
+    title: "App-Based Prescriptions",
+    description: "Just like a doctor's prescription — personalized recommendations for skills and courses based on each student's profile.",
   },
   {
-    icon: TrendingUp,
-    title: "Career Mapping",
-    description: "Visual career pathways showing realistic steps from current position to dream careers.",
+    icon: Route,
+    title: "Search Your Path",
+    description: "Find the shortest path to desired goals. Similar to Google Maps, visualize the route from current skills to career success.",
   },
   {
-    icon: Zap,
-    title: "Real-Time Mentorship",
-    description: "Connect with experienced mentors and counselors for guidance at every step of your journey.",
+    icon: MapPin,
+    title: "Best Skill Resources",
+    description: "Don't just know 'what' to learn, but 'where'. We refer the best places and institutions for acquiring specific skills.",
   }
 ];
 
@@ -32,9 +32,9 @@ export const Features = () => {
         <div className="section-heading">
           <div>
             <p className="section-kicker">The platform</p>
-            <h2 id="features-title" className="section-title">Clarity at every step.<br />Support that stays.</h2>
+            <h2 id="features-title" className="section-title">What is Career Maps?</h2>
           </div>
-          <p className="section-intro">One connected platform for career discovery, purposeful learning, and the guidance students need to move forward.</p>
+          <p className="section-intro">A comprehensive app that makes careers accessible — a GPS for your student's future.</p>
         </div>
 
         {/* Features Grid */}
