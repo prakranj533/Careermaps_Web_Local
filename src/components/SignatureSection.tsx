@@ -47,7 +47,7 @@ export const SignatureSection = () => {
           </div>
           <div>
             <dt>Portal :</dt>
-            <dd><a href="https://careermaps-ai-dashboard.web.app/" target="_blank" rel="noreferrer">Log into your portal</a></dd>
+            <dd><a href="https://careermaps-b953d.web.app/" target="_blank" rel="noreferrer">Log into your portal</a></dd>
           </div>
           <div>
             <dt>Phone Number :</dt>

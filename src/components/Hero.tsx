@@ -14,7 +14,7 @@ export const Hero = () => {
       style={{ aspectRatio: "16 / 9", maxHeight: "100vh", minHeight: "100vh" }}
       aria-labelledby="hero-title"
     >
-      <h1 id="hero-title" className="sr-only">Career Maps: AI-powered career guidance and blended learning for schools</h1>
+      <h1 id="hero-title" className="sr-only">Career Maps: the go-to way to make your school an AI School — AI smart classes, career guidance, and mentorship</h1>
       <ManagedVideo src="/hero-background.mp4" poster="/hero-poster.jpg" label="Career Maps introduction" eager className="absolute inset-0" />
       <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-black/20 via-black/10 to-black/40" />
       <button

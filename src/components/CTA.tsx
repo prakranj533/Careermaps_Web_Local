@@ -13,7 +13,7 @@ export const CTA = () => {
             <p className="section-intro mt-6">Tell us about your school. We’ll explore how career guidance and blended learning can support your students.</p>
           </div>
           <div className="contact-panel">
-            <h3 className="text-xl font-semibold">Bring CareerMaps to your school</h3>
+            <h3 className="text-xl font-semibold">Make your school an AI School</h3>
             <p className="mt-3 text-sm leading-6 text-white/75">Connect with our team to discuss your needs or arrange a walkthrough of the platform.</p>
             {/* CTA Buttons */}
             <div className="mt-8 flex flex-col gap-3">

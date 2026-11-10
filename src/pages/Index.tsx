@@ -3,6 +3,7 @@ import { ImpactStats } from "@/components/ImpactStats";
 import { CareerPs } from "@/components/CareerPs";
 import { Audiences } from "@/components/Audiences";
 import { Problem } from "@/components/Problem";
+import { AISchool } from "@/components/AISchool";
 import { Solution } from "@/components/Solution";
 import { Features } from "@/components/Features";
 import { Pillars } from "@/components/Pillars";
@@ -27,6 +28,7 @@ const Index = () => {
       <CareerPs />
       <Audiences />
       <Problem />
+      <AISchool />
       <Solution />
       <Features />
       <Pillars />

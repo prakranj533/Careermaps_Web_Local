@@ -11,7 +11,7 @@ const tech: { icon: typeof Gamepad2; title: string; description: ReactNode }[] =
   {
     icon: UserPlus,
     title: "Centralized Enrollment",
-    description: <>Seamlessly onboard all students onto the <a href="https://careermaps-ai-dashboard.web.app/" target="_blank" rel="noreferrer" className="font-semibold text-emerald-700 underline underline-offset-2 hover:text-emerald-800">Career Maps portal</a> for instant access to resources.</>,
+    description: <>Seamlessly onboard all students onto the <a href="https://careermaps-b953d.web.app/" target="_blank" rel="noreferrer" className="font-semibold text-emerald-700 underline underline-offset-2 hover:text-emerald-800">Career Maps portal</a> for instant access to resources.</>,
   },
   {
     icon: LayoutDashboard,
