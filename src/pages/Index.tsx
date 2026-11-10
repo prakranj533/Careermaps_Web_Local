@@ -13,6 +13,7 @@ import { ProvenResults } from "@/components/ProvenResults";
 import { TechInfra } from "@/components/TechInfra";
 import { Pricing } from "@/components/Pricing";
 import { Roadmap } from "@/components/Roadmap";
+import { PartnerLogin } from "@/components/PartnerLogin";
 import { Reviews } from "@/components/Reviews";
 import { Team } from "@/components/Team";
 import { CTA } from "@/components/CTA";
@@ -38,6 +39,7 @@ const Index = () => {
       <TechInfra />
       <Pricing />
       <Roadmap />
+      <PartnerLogin />
       <Reviews />
       <Team />
       <CTA />
