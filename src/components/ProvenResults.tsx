@@ -44,7 +44,7 @@ export const ProvenResults = () => {
               <div className="mt-8 grid grid-cols-2 gap-6">
                 <div>
                   <p className="text-xs font-semibold uppercase tracking-[0.2em] text-slate-500">Other schools</p>
-                  <p className="mt-2 text-4xl font-semibold tracking-tight text-slate-400">{item.other}</p>
+                  <p className="mt-2 text-4xl font-semibold tracking-tight text-slate-500">{item.other}</p>
                 </div>
                 <div>
                   <p className="text-xs font-semibold uppercase tracking-[0.2em] text-emerald-700">Career Maps</p>

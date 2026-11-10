@@ -51,7 +51,7 @@ test("below-fold videos load on approach and respect reduced motion", async ({ p
 test("offscreen videos are deferred and pause after scrolling away", async ({ page }) => {
   await page.emulateMedia({ reducedMotion: "no-preference" });
   await page.goto("/");
-  const heroVideo = page.getByRole("region", { name: /Career Maps: AI-powered/ }).locator("video");
+  const heroVideo = page.getByRole("region", { name: /^Career Maps: the go-to way/ }).locator("video");
   const overview = page.getByRole("region", { name: "Career Maps platform overview" });
   await expect(overview.locator("video")).not.toHaveAttribute("src");
   await overview.scrollIntoViewIfNeeded();
@@ -62,7 +62,7 @@ test("offscreen videos are deferred and pause after scrolling away", async ({ pa
 test("failed hero video retains a visible poster", async ({ page }) => {
   await page.route("**/hero-background.mp4", (route) => route.abort());
   await page.goto("/");
-  const hero = page.getByRole("region", { name: /Career Maps: AI-powered/ });
+  const hero = page.getByRole("region", { name: /^Career Maps: the go-to way/ });
   await expect(hero.getByRole("status")).toContainText("Video unavailable");
   await expect(hero.locator("img")).toBeVisible();
   await expect(hero.locator("video")).toHaveCSS("opacity", "0");

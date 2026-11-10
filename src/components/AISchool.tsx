@@ -47,7 +47,7 @@ export const AISchool = () => {
                 <BadgeCheck className="h-4 w-4 shrink-0 text-emerald-300" aria-hidden="true" />
                 Live deployment — Shri Geeta Prasad Singh Gurukul Public School, Patna (Estd. 1983)
               </p>
-              <p className="mt-1 text-xs text-white/80">"AI शिक्षा — नई शुरुआत" · Nursery to Class 10 (CBSE curriculum)</p>
+              <p className="mt-1 text-xs text-white">"AI शिक्षा — नई शुरुआत" · Nursery to Class 10 (CBSE curriculum)</p>
             </figcaption>
           </figure>
 

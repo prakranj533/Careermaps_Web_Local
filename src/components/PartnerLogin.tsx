@@ -104,7 +104,7 @@ export const PartnerLogin = () => {
                 </Button>
                 <Dialog open={open} onOpenChange={(v) => { setOpen(v); if (!v) setSubmitted(false); }}>
                   <DialogTrigger asChild>
-                    <Button size="lg" variant="outline" className="rounded-full border-white/40 text-white hover:bg-white/10">Become a partner</Button>
+                    <Button size="lg" variant="outline" className="rounded-full border-transparent bg-slate-900 text-white hover:bg-slate-800">Become a partner</Button>
                   </DialogTrigger>
                   <DialogContent>
                     <DialogHeader>
