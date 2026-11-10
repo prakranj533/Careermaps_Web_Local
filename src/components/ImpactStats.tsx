@@ -42,9 +42,9 @@ export const ImpactStats = () => {
       <div className="absolute inset-0 bg-white/5" />
       <div className="relative container px-6 py-14 mx-auto flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between text-white">
         <div className="flex-1">
-          <p className="text-6xl md:text-7xl font-semibold tracking-tight">100+</p>
-          <p className="mt-2 text-lg font-semibold">Institutions and counting</p>
-          <p className="mt-1 text-sm text-white/75">Schools &amp; colleges already live with CareerMaps</p>
+          <p className="text-6xl md:text-7xl font-semibold tracking-tight">150+</p>
+          <p className="mt-2 text-lg font-semibold">Schools and counting</p>
+          <p className="mt-1 text-sm text-white/75">Institutions already live with CareerMaps</p>
         </div>
         <div className="flex-1 grid gap-6 sm:grid-cols-2">
           <div className="p-4 rounded-3xl border border-white/30 bg-white/10 backdrop-blur-md sm:col-start-2 sm:justify-self-end sm:w-[365px] sm:ml-auto">

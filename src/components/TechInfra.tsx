@@ -16,7 +16,7 @@ const tech: { icon: typeof Gamepad2; title: string; description: ReactNode }[] =
   {
     icon: LayoutDashboard,
     title: "Admin Dashboarding",
-    description: "Real-time monitoring of SHG clusters, attendance, and performance metrics for administrators.",
+    description: "Real-time monitoring of classes, attendance, and performance metrics for administrators.",
   },
   {
     icon: BarChart3,

@@ -32,7 +32,7 @@ export const ProvenResults = () => {
             <p className="section-kicker">Survey data &amp; impact</p>
             <h2 id="results-title" className="section-title">Proven results.</h2>
           </div>
-          <p className="section-intro">Initial survey of Grades 5–6 comparing Career Maps (SHG) schools with other schools — the gap highlights the critical need for <a href="https://careermaps.live" target="_blank" rel="noreferrer" className="font-semibold text-emerald-700 underline underline-offset-2 hover:text-emerald-800">structured counseling</a>.</p>
+          <p className="section-intro">Initial survey of Grades 5–6 comparing Career Maps schools with other schools — the gap highlights the critical need for <a href="https://careermaps.live" target="_blank" rel="noreferrer" className="font-semibold text-emerald-700 underline underline-offset-2 hover:text-emerald-800">structured counseling</a>.</p>
         </div>
 
         {/* Comparison Cards */}

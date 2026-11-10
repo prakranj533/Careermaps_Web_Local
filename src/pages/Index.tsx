@@ -26,7 +26,7 @@ const Index = () => {
       <main id="main-content" tabIndex={-1} className="min-h-screen w-full">
       <Hero />
       <ImpactStats />
-      <CareerPs />
+      <PartnerLogin />
       <Audiences />
       <Problem />
       <AISchool />
@@ -39,10 +39,10 @@ const Index = () => {
       <TechInfra />
       <Pricing />
       <Roadmap />
-      <PartnerLogin />
       <Reviews />
       <Team />
       <CTA />
+      <CareerPs />
       </main>
       <SignatureSection />
     </>

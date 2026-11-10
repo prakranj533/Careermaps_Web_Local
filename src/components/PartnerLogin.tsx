@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 
 const features = [
   { icon: BarChart3, label: "Attendance & performance analytics" },
-  { icon: Users, label: "SHG cluster & student monitoring" },
+  { icon: Users, label: "Student & class monitoring" },
   { icon: LayoutDashboard, label: "Real-time engagement tracking" },
 ];
 
